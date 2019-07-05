@@ -140,7 +140,7 @@ L.Control.OSMGeocoder = L.Control.extend({
 		}
 
 		//and now Nominatim
-		//http://wiki.openstreetmap.org/wiki/Nominatim
+		//https://wiki.openstreetmap.org/wiki/Nominatim
 		console.log(this._callbackId);
 		window[("_l_osmgeocoder_"+this._callbackId)] = L.Util.bind(this.options.callback, this);
 
